@@ -4,11 +4,19 @@
 
 
 int[] array = GenerateArray(); // возвращаем метод с рандомным массивом
+Console.WriteLine("Initial");
 PrintArray(array);  // печатаем ответ
 
 Console.WriteLine();  // пробел
 
 int[] copyArray = CopyArray(array); // возвращаем метод, со скопированным рандомным массивом
+array[0] = 567654;
+Console.WriteLine("Initial changed");
+PrintArray(array);
+
+Console.WriteLine();
+
+Console.WriteLine("Copied");
 PrintArray(copyArray);  // печатаем ответ
 
 
@@ -42,4 +50,5 @@ void PrintArray(int[] array) // создаем метод, для печати �
     {
         Console.Write($"{array[i]} ");
     }
+    Console.WriteLine();
 }
