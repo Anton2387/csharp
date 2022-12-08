@@ -2,7 +2,7 @@
 треугольник с сторонами такой длины.
 Теорема о неравенстве треугольника: каждая сторона треугольника меньше суммы двух других сторон.*/
 
-Console.WriteLine("Введите три числа nh");
+Console.WriteLine("Введите три числ");
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 int c = Convert.ToInt32(Console.ReadLine());
